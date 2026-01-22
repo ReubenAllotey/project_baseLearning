@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+
+<%- include('partials/header.ejs') %>
+<h2>Latest Posts</h2>
+
+<% if (Post.length === 0) { %>
+  <p>No posts yet.</p>
+<% } %>
+
+<% Post.forEach(post => { %>
+  <div class="post-card">
+    <h3><%= post.title %></h3>
+    <p>By: <%= post.author %> | <%= new Date().getFullYear() %></p>
+    <hr>
+    <p><%= post.content %>...</p>
+    <hr>
+
+    <div class="btn-container">
+       
+    <a href="/post/<%= post.id %>" class="btn-Read">ReadMore</a>
+  <a href="/edit/<%= post.id %>" class="btn-edit">Edit</a>
+
+
+    <form action="/delete/<%= post.id %>" method="POST">
+      <button class="btn-delete">Delete</button>
+    </form>
+    </div>
+  </div>
+<% }) %>
+
+</body>
+</html>
+
+

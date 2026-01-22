@@ -1,0 +1,157 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+nav {
+  background: #0077cc;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li {
+  list-style: none;
+  padding-right: 30px;
+  text-align: right;
+  font-weight: 800 bold;
+  font-size: 16px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.main-7 h2 {
+  font-weight: 800 bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main-7 p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: rgb(75, 76, 77);
+}
+
+.main-7 input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 500px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.main-7 textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 500px;
+  height: 300px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.input-scroll {
+  height: 100px;
+  resize: vertical;
+  padding-top: 10px;
+}
+
+.main-7 input:focus {
+  border-color: black;
+  box-shadow: 0 0 6px black;
+}
+
+.main-7 button {
+  width: 300px;
+  background-color: rgb(28, 86, 210);
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.post-card {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 2px;
+  border: 1px solid rgb(49, 48, 48);
+  width: 700px;
+}
+
+.btn-container {
+  display: flex;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.btn-Read {
+  background-color: #0077cc;
+  color: white;
+  margin-right: 20px;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+  width: 100px;
+  padding-top: 10px;
+}
+
+.btn-edit {
+  background-color: grey;
+  color: white;
+  margin-right: 20px;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+  width: 100px;
+  padding-top: 10px;
+}
+
+.btn-delete {
+  background-color: rgba(234, 5, 5, 0.537);
+  color: white;
+  margin-right: 20px;
+  border: none;
+  height: 40px;
+  border-radius: 4px;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.btn-home {
+  border: none;
+  border-radius: 2px;
+  background-color: #0077cc;
+  width: 120px;
+  padding-top: 10px;
+}

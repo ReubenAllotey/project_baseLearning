@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= post.title %></title>
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <%- include('partials/header.ejs') %>
+    <h1><%= post.title %></h1>
+
+    <p>By <%= post.author %> | <%= new Date().getFullYear() %></p>
+    <hr />
+    <p><%= post.content %></p>
+    <hr />
+    <div class="btn-container">
+      <a href="/edit/<%= post.id %>" class="btn-edit">Edit</a>
+      <form action="/delete/<%= post.id %>" method="POST">
+        <button class="btn-delete">Delete</button>
+      </form>
+      <a href="/" class="btn-home">Back to Home</a>
+    </div>
+  </body>
+</html>

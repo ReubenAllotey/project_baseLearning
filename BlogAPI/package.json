@@ -1,0 +1,26 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "full blog post with api integrated ",
+  "homepage": "https://github.com/ReubenAllotey/project_baseLearning#readme",
+  "bugs": {
+    "url": "https://github.com/ReubenAllotey/project_baseLearning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReubenAllotey/project_baseLearning.git"
+  },
+  "license": "ISC",
+  "author": "Reuben",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "body-parser": "^2.2.2",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}

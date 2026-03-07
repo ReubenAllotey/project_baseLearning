@@ -1,0 +1,26 @@
+{
+  "name": "capitalquiz",
+  "version": "1.0.0",
+  "description": "quiz on country capitals",
+  "homepage": "https://github.com/ReubenAllotey/project_baseLearning#readme",
+  "bugs": {
+    "url": "https://github.com/ReubenAllotey/project_baseLearning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReubenAllotey/project_baseLearning.git"
+  },
+  "license": "ISC",
+  "author": "Reuben Allotey",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  }
+}
